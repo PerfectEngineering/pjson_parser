@@ -1,0 +1,11 @@
+pub const OBJECT_START_CHAR: char = '{';
+pub const OBJECT_END_CHAR: char = '}';
+pub const OBJECT_PAIR_SEPARATOR_CHAR: char = ':';
+pub const ARRAY_START_CHAR: char = '[';
+pub const ARRAY_END_CHAR: char = ']';
+pub const COMMA_CHAR: char = ',';
+pub const DOT_CHAR: char = '.';
+pub const STRING_START_CHAR: char = '"';
+pub const STRING_END_CHAR: char = '"';
+pub const SKIP_CHAR: char = '\\';
+pub const SPACE_CHAR: char = ' ';

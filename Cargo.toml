@@ -1,0 +1,7 @@
+[package]
+name = "json_parser"
+version = "0.1.0"
+authors = ["Perfect Makanju <damiperfect@gmail.com>"]
+edition = "2018"
+
+[dependencies]
