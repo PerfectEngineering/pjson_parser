@@ -1,6 +1,8 @@
 use std::error::Error;
 use std::fmt;
 
+/// ParserError represents all the possible errors that can be gotten
+/// from parsing a JSON string.
 #[derive(Debug)]
 pub enum ParserError {
   UnexpectedCharacterError(char, usize),

@@ -92,7 +92,9 @@ impl TryFrom<Token> for ArrayToken {
   }
 }
 
-
+/// Token is an enum used to represent all the different types of data that can be 
+/// gotten from parsing a JSON string
+/// 
 #[derive(Debug, Clone)]
 pub enum Token {
   Number(NumberToken),
