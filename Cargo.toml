@@ -1,7 +1,12 @@
 [package]
-name = "json_parser"
+name = "pjson_parser"
 version = "0.1.0"
-authors = ["Perfect Makanju <damiperfect@gmail.com>"]
+authors = ["Perfect Makanju <developer@perfects.engineering>"]
 edition = "2018"
+homepage = "https://github.com/PerfectEngineering/pjson_parser"
+repository = "https://github.com/PerfectEngineering/pjson_parser"
+readme = "README.md"
+keywords = ["rust", "json", "parser", "tutorial"]
+categories = ["parsing", "parser-implementations"]
 
 [dependencies]
