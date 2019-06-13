@@ -12,3 +12,4 @@ keywords = ["rust", "json", "parser", "tutorial"]
 categories = ["parsing", "parser-implementations"]
 
 [dependencies]
+queues = "1.0.0"
