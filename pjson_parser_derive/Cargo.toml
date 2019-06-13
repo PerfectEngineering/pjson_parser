@@ -1,0 +1,13 @@
+[package]
+name = "pjson_parser_derive"
+version = "0.1.0"
+authors = ["Perfect Makanju <developer@perfects.engineering>"]
+edition = "2018"
+
+[lib]
+name = "pjson_parser_derive"
+proc-macro = true
+
+[dependencies]
+syn = "0.15.35"
+quote = "0.6.12"
